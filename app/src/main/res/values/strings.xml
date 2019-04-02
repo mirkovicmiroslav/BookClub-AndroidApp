@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">KlubCitalaca</string>
+    <string name="text_email">Email</string>
+    <string name="text_password">Lozinka</string>
+    <string name="button_logIn">Uloguj se</string>
+    <string name="button_register">Registruj se</string>
+    <string name="text_name">Ime</string>
+    <string name="text_passwordCheck">Potvrda lozinke</string>
+    <string name="text_lastName">Prezime</string>
+    <string name="nav_home">Pocetna</string>
+    <string name="nav_search">Pretraga</string>
+    <string name="nav_categories">Kategorije</string>
+    <string name="nav_settings">Podesavanja</string>
+    <string name="nav_logOut">Odjavi se</string>
+    <string name="text_fullName">Ime i prezime</string>
+    <string name="navigation_drawer_open">Otvori</string>
+    <string name="navigation_drawer_close">Zatvori</string>
+    <string name="nav_profile">Profil</string>
+    <string name="txt_bookTitle">Ime knjige</string>
+    <string name="nav_add_book">Dodaj knjigu</string>
+    <string name="add_book">Dodaj knjigu</string>
+    <string name="choose_gallery" translatable="false">Dodaj iz galerije</string>
+    <string name="take_photo">Slikaj</string>
+    <string name="save_book">Dodaj knjigu</string>
+    <string name="id_user">id_user</string>
+    <string name="nav_logIn">Uloguj se</string>
+    <string name="nav_signUp">Registruj se</string>
+    <string name="change_profile">Izmjeni profil</string>
+    <string name="confirm_change_profile">Potvrdi izmjene</string>
+    <string name="button_cancel_change_profile">Otkazi</string>
+    <string name="nav_favourites">Omiljene knjige</string>
+    <string name="add_to_favourite_book">Dodaj u omiljene</string>
+    <string name="category_name">Ime kategorije</string>
+
+</resources>

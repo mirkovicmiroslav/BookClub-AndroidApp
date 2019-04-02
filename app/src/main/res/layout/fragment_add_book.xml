@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.AddBookFragment"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/text_name_book"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:ems="10"
+                android:hint="Unesite naziv"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/text_author"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:ems="10"
+                android:hint="Unesite autora" />
+
+            <EditText
+                android:id="@+id/text_publisher"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:ems="10"
+                android:hint="Unesite izdavaca" />
+
+            <EditText
+                android:id="@+id/text_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:hint="Unesite opis" />
+
+            <ListView
+                android:id="@+id/checkbox_list"
+                android:layout_width="match_parent"
+                android:layout_height="179dp" />
+
+            <FrameLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_margin="4dp">
+
+                <ImageView
+                    android:id="@+id/image_book"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="TODO"
+                    android:background="#2d2d2d"
+                    android:scaleType="fitXY"/>
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button_choose_gallery"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:text="@string/choose_gallery" />
+
+                <Button
+                    android:id="@+id/button_take_photo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:text="@string/take_photo" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/save_book"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/button_rounded"
+                android:text="@string/save_book" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BookClub</string>
+    <string name="text_email">Email</string>
+    <string name="text_password">Password</string>
+    <string name="button_logIn">Log in</string>
+    <string name="button_register">Register</string>
+    <string name="text_name">First Name</string>
+    <string name="text_passwordCheck">Confirm password</string>
+    <string name="text_lastName">Last name</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_categories">Categories</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_logOut">Log out</string>
+    <string name="text_fullName">Full name</string>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+    <string name="nav_profile">Profile</string>
+    <string name="txt_bookTitle">Book title</string>
+    <string name="nav_add_book">Add book</string>
+    <string name="add_book">Add book</string>
+    <string name="choose_gallery" translatable="false">Add from gallery</string>
+    <string name="take_photo">Capture</string>
+    <string name="save_book">Save book</string>
+    <string name="id_user">id_user</string>
+    <string name="nav_logIn">Log in</string>
+    <string name="nav_signUp">Register</string>
+    <string name="change_profile">Change profile</string>
+    <string name="confirm_change_profile">Confrim changes</string>
+    <string name="button_cancel_change_profile">Cancel</string>
+    <string name="nav_favourites">Favourite books</string>
+    <string name="add_to_favourite_book">Add in favourite</string>
+    <string name="category_name">Category name</string>
+</resources>
